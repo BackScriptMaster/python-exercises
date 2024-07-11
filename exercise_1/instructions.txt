@@ -1,0 +1,13 @@
+Implementar un menú de aplicación con las siguientes opciones:
+    [1] – Importar nombres
+    [2] – Mostrar lista de nombres
+    [0] – Salir
+Implementar una función load_listname() que lea un fichero llamado names.txt:
+    El fichero tendrá una(s) palabra(s) naombres por línea.
+    No hay que separar los nombres con ningún carácter, solo enter.
+    El fichero se leerá línea a línea, guardando la palabra clave correspondiente como un nuevo elemento de una lista.
+    La función devolverá una lista de nombres.
+Cuando se introduzca la opción de menú [1], se invocará a la función load_listname(). La lista resultante se asignará a una variable del programa llamada names.
+Cuando se introduzca la opción de menú [2], se mostrará el listado de nombres de 20 en 20, es decir, una vez mostradas 20 nombres, el usuario deberá pulsar la tecla enter para ver las siguientes.
+Cuando se introduzca la opción de menú [0], el programa finalizará.
+

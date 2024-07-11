@@ -1,0 +1,19 @@
+La palabra clave «with» en Python se utiliza para manejar recursos externos, como archivos o conexiones a bases de datos, de manera segura y eficiente.
+
+El enfoque principal de «with» es asegurarse de que los recursos sean liberados correctamente después de que se hayan terminado de utilizar, incluso si ocurre una excepción durante el proceso.
+
+Cuando se utiliza la instrucción «with», se sigue la siguiente sintaxis:
+
+with recurso as variable:
+
+Dentro del bloque de código indentado que sigue a la instrucción «with», podemos realizar operaciones con el recurso abierto utilizando la variable asignada.
+
+Por ejemplo, podemos utilizar un bloque «with» para abrir un archivo y leer su contenido:
+
+with open("archivo.txt", "r") as archivo:
+
+    contenido = archivo.read()
+
+En este caso, el archivo se abre utilizando la función «open()», y la variable «archivo» se utiliza para acceder al contenido del archivo con la función «read()». Una vez que el bloque «with» ha finalizado, el recurso se cierra automáticamente, sin necesidad de llamar explícitamente a la función «close()».
+
+En resumen, la palabra clave «with» en Python ofrece una forma más sencilla y segura de trabajar con recursos externos, asegurándose de manejar adecuadamente su apertura y cierre.
